@@ -24,7 +24,7 @@ This is a full-stack web application built with **React** for the frontend and *
 
 ## 🖥️ React Frontend Setup 
 
-# Navigate to frontend
+### Navigate to frontend
 cd frontend
 
 # Install dependencies
