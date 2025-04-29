@@ -13,7 +13,7 @@ This is a full-stack web application built with **React** for the frontend and *
 
 ---
 
-### 📦 Prerequisites
+## 📦 Prerequisites
 
 - Node.js (v18+)
 - Composer
@@ -25,31 +25,31 @@ This is a full-stack web application built with **React** for the frontend and *
 ## 🖥️ React Frontend Setup 
 
 ### Navigate to frontend
-cd frontend
+cd frontend-crud-application
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Start the dev server
+### Start the dev server
 npm run dev
 
 ---
 
 ## 🧱 Laravel Backend Setup 
 
-# Navigate to backend
-cd backend
+### Navigate to backend
+cd backend-crud-application
 
-# Install dependencies
+### Install dependencies
 composer install
 
-# Copy environment file and set up DB
+### Copy environment file and set up DB
 cp .env.example .env
 php artisan key:generate
 
-# Configure DB credentials in .env
-# Then run migrations:
+### Configure DB credentials in .env
+### Then run migrations:
 php artisan migrate
 
-# Start Laravel server
+### Start Laravel server
 php artisan serve
